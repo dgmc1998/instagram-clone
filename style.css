@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    }
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    }
+
+.instagram-master{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+    }
+
+.instagram-celular{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    }
+
+.instagram-celular img{
+    height: 50rem;
+    }
+
+.instagram-class{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    flex-direction: column;
+    min-height: 34rem;
+    }
+
+.group{
+    display: flex;
+    border: solid 1px lightgray;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    flex-direction: column;
+    background: #ffffff;
+    }
+
+.group:nth-child(1) {
+        min-height: 19rem;
+    }
+
+.instagram-photo {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    justify-content: center;
+    }
+
+.instagram-photo img{
+    height: 6rem;
+    }
+
+.instagram-login{
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    }
+
+.instagram-logout{
+    color: #0095f6;
+    margin-top: 1rem;
+    }
+
+.link-blue{
+    color: #0095f6;
+    }
+
+.install-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    }
+
+.bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    }
+
+.bottom img{
+    height: 3rem;
+    width: 10rem;
+}
+
+
+@media (max-width: 1024px){
+    .instagram-master{
+        width: 90%;
+    }
+}
+
+@media(max-width: 650px){
+    body{
+        background: white;
+    }
+
+    .instagram-master{
+        width: 90%;
+    }
+
+    .group{
+        border: none;
+    }
+
+    .instagram-celular{
+        display: none;
+    }
+
+    .instagram-class{
+        width:100%;
+    }
+}
+
